@@ -6,8 +6,7 @@ import time
 class BorderDetector:
     def __init__(self):
         pass
-    
-    # test
+
     def filter_white_shades(self, img, low, high):
 
         mask = cv.inRange(img, low, high)
